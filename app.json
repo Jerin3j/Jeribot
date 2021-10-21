@@ -1,0 +1,148 @@
+{
+    "name": "Jeribot",
+    "description": " Whatsapp self bot.",
+    "keywords": [
+        "whatsapp",
+        "bot"
+    ],
+    "stack": "container",
+    "env": {
+        "ASENA_SESSION": {
+            "description": "Enter whatsapp web session.",
+            "required": true
+        },
+        "SUDO": {
+            "description": "Sudo mode, Your number must be an international number. So you should have your number after the country code. Example: 919526269494 (IN)",
+            "required": false
+        },
+        "HANDLERS": {
+            "description": "enter handlers.",
+            "required": true,
+            "value": "^[.]"
+        },
+        "SEND_READ": {
+            "description": "send read receipt.",
+            "required": false,
+            "value": "true"
+        },
+        "HEROKU": {
+            "description": "Enable heroku features",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "Enter Heroku API Key.",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Enter Heroku APP Name.",
+            "required": true
+        },
+        "DEBUG": {
+            "description": "debug",
+            "required": false,
+            "value": "false"
+        },
+        "AUTO_REMOVE_FAKE": {
+            "description": "Remove fake number if welcome msg enabled.",
+            "required": false,
+            "value": "false"
+        },
+        "EXT": {
+            "description": "Enter xteam api",
+            "required": false,
+            "value": "false"
+        },
+        "CLR_SESSION": {
+            "description": "Enter true to delete old session.",
+            "required": false,
+            "value": "false"
+        },
+        "NO_ONLINE": {
+            "description": "set true to hide online.",
+            "required": false,
+            "value": "true"
+        },
+        "WELCOME": {
+            "description": "links separeted by ,",
+            "required": false,
+            "value": "false"
+        },
+        "GOODBYE": {
+            "description": "links separeted by ,",
+            "required": false,
+            "value": "false"
+        },
+        "BANBYE": {
+            "description": "links separeted by ,",
+            "required": false,
+            "value": "false"
+        },
+        "WELCOME_JID": {
+            "description": "jid,jid,jid...",
+            "required": false,
+            "value": "false"
+        },
+        "BANBYE_JID": {
+            "description": "jid,jid,jid...",
+            "required": false,
+            "value": "false"
+        },
+        "GOODBYE_JID": {
+            "description": "jid,jid,jid...",
+            "required": false,
+            "value": "false"
+        },
+        "WARN_COUNT": {
+            "description": "Maximum no of warns",
+            "required": false,
+            "value": "3"
+        },
+        "WARN_MSG": {
+            "description": "Message send while kicking.",
+            "required": false,
+            "value": "OK bie"
+        },
+        "ALIVE_MSG": {
+            "description": "alive command reply message.",
+            "required": false,
+            "value": "false"
+        },
+        "ALIVE_URL": {
+            "description": "alive message media can be video or image url.",
+            "required": false,
+            "value": "false"
+        },
+        "REMOVEBG_KEY": {
+            "description": "Get your key from remove.bg",
+            "required": false,
+            "value": "false"
+        },
+        "LANGUAGE": {
+            "description": "Enter bot language, example EN for English, ID for Bahasa Indonesia, TR for Turkish",
+            "value": "EN"
+        },
+        "ALLOWED_URLS": {
+            "description": "Links allowed when anti link enabled",
+            "value": "instagram.com,youtube.com"
+        },
+        "ANTIJID": {
+            "description": "set jids to enable antilink",
+            "value": "false"
+        },
+        "STICKER_PACKNAME": {
+            "description": "Sticker pack name,author",
+            "value": "3J-ser,Jeri"
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku-community/apt"
+        }
+    ]
+}
