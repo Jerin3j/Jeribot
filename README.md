@@ -13,7 +13,7 @@ This is a Userbot based on WhatsAsena written by [Yusuf Usta](https://github.com
 3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 4. Now click [DEPLOY](https://heroku.com/deploy?template=https://github.com/Jerin3j/Jeribot) and Follow.
    <br>
-   <a href="https:instagram.com/jerry.3j._"><img src="https://img.shields.io/badge/-follow%20instagram-critical?style=for-the-badge&logo=instagram&logoColor=blueviolet">
+   <a href="https:instagram.com/jerry.3j._"><img src="https://img.shields.io/badge/-follow%20instagram-blueviolet?style=for-the-badge&logo=instagram&logoColor=white">
    <br>
    <a href="wa.me/+33751018946"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-lightgrey?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
