@@ -19,7 +19,7 @@ This is a Userbot based on WhatsAsena written by [Yusuf Usta](https://github.com
    <br>
    <a href="https://instagram.com/jerry.3j._?utm_medium=copy_link"><img src="https://img.shields.io/badge/-follow%20instagram-blueviolet?style=for-the-badge&logo=instagram&logoColor=white">
    <br>
-   <a href="httpa://wa.me/33751018946"><img alt="WhatsApp" src="https://img.shields.io/badge/-%20whatsapp-green?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+   <a href="https://wa.me/33751018946"><img alt="WhatsApp" src="https://img.shields.io/badge/-%20whatsapp-green?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 <a href="https://github.com/lyfe00011/whatsapp-bot/wiki/"><img src="https://img.shields.io/badge/plugins-blue?style=for-the-badge&logo=appveyor%22"/></a>
 
