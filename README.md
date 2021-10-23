@@ -8,7 +8,7 @@ This is a Userbot based on WhatsAsena written by [Yusuf Usta](https://github.com
 
 ## Who is Java?
 
-(www.github.com/Jerin3j) is a simple and cool man. And its a language.
+[Java](www.github.com/Jerin3j) is a simple and cool man. And its a language.
 
 ## Setup
 
