@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lyfe00011/whatsapp-bot.git"
+    "url": "git+https://github.com/Jerin3j/Jeribot.git."
   },
   "keywords": [
     "whatsapp",
@@ -19,9 +19,9 @@
   "author": "Jerin3j",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/lyfe00011/whatsapp-bot/issues"
+    "url": "https://github.com/Jerin3j/Jeribot/issues"
   },
-  "homepage": "https://github.com/lyfe00011/whatsapp-bot#readme",
+  "homepage": "https://github.com/Jerin3j/Jeribot#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "axios": "^0.21.1",
