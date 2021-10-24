@@ -147,7 +147,7 @@ ${chalk.blue.italic.bgBlack("ℹ️ Connecting to WhatsApp... Please wait.")}`);
     console.log(chalk.green.bold("✅ Plugins installed!"));
     await conn.sendMessage(
       conn.user.jid,
-      "*Bot connected Successfully*",
+      "*Bot Started*",
       MessageType.text
     );
     let update = await updateChecker();
@@ -198,4 +198,3 @@ async function lastestVersion() {
   whatsAsena(currentVersion);
 }
 lastestVersion();
- 
